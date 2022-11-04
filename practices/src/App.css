@@ -1,0 +1,102 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+.box {
+  margin: 0 auto;
+  background-color: white;
+  width: 32rem;
+  height: 36rem;
+  border-radius: 7px;
+  border: 2px solid lightgrey;
+  margin-bottom: 20px;
+}
+
+.profile {
+  display: grid;
+  grid-template-columns: 60px 10fr 1fr;
+  /* justify-content: space-between; */
+  align-items: center;
+  padding: 0px 20px;
+  margin-top: 10px;
+}
+
+.profile img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.user {
+  margin-right: 150px;
+}
+
+.set {
+  margin-right: 10px;
+}
+
+.image img {
+  width: 508px;
+  height: 440px;
+  margin-top: 10px;
+
+
+}
+
+.heart {
+  font-size: 25px;
+  color: #af2634;
+  border: none;
+  background-color: white;
+
+
+}
+
+.heart:hover {
+  color: red;
+}
+
+.button {
+  margin: 0px 20px;
+  display: flex;
+  align-items: center;
+}
+
+.likes {
+  margin: 4px;
+  font-size: 14px;
+}
+
+.shareModal {
+  display: flex;
+  margin: 10px;
+  flex-direction: column;
+  width: 300px;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 10px 5px 5px black;
+}
+input[type="text"] {
+  width: 84%;
+}
+.blueBtn {
+  background: black;
+  border-radius: 0px 9px 5px 0px;
+  color: white;
+}
+.Btn {
+  background: black;
+  border-radius: -1px;
+  margin: 3px 2px;
+  color: white;
+}
+.redbtn {
+  background: #c12a2a;
+}

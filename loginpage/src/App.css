@@ -1,0 +1,61 @@
+
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.loginTXt {
+  /* font-size: 22px; */
+  font-weight: 800;
+  margin: 20px 0px;
+}
+
+.cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin: 29px; */
+  height: 100vh;
+  /* border: 1px solid black; */
+  background-color: #dbc4db;
+
+  
+}
+form {
+  border: 1px solid black;
+  text-align: center;
+  width: 500px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #c8a6e9;
+
+}
+button {
+  background-color: #5427b1;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 31px;
+  font-weight: 700;
+  color: white;
+  margin: 10px;
+}
+
+.circle {
+  position: absolute;
+    left: 0;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border: 1px solid black;
+  border-radius: 50px;
+}
+.timer {
+  text-align: center;
+}
+button.Start{
+  margin: 10px;
+}
